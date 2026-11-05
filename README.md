@@ -21,6 +21,8 @@ With [lazy.nvim](https://github.com/folke/lazy.nvim):
 }
 ```
 
+Update with `:Lazy update heritage-themes.nvim`. lazy.nvim records the installed commit in `lazy-lock.json`; commit that file to keep every machine on the same version.
+
 With `vim.pack`, built into Neovim 0.12:
 
 ```lua
@@ -86,6 +88,6 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 | [Zalipie](https://github.com/heritage-themes/heritage-themes/tree/master/themes/zalipie) | `heritage-zalipie-sadza-dark`, `heritage-zalipie-wapno-light` | The painted cottages of Zalipie: lime, soot and clay for text, keywords and comments, and the flowers for names, with rose methods, leaf-green strings and violet types, on a soot plinth or a lime-washed wall. |
 | [Złotnica](https://github.com/heritage-themes/heritage-themes/tree/master/themes/zlotnica) | `heritage-zlotnica-aksamit-dark`, `heritage-zlotnica-plotno-light` | The gold-and-silver embroidered bonnets of Kashubia: hierarchy by metal, tone and weight, with sapphire, burgundy and emerald velvet as the only colours, on green velvet or white linen. |
 
-Each family's page describes its colour tradition. The same themes are available for JetBrains IDEs, VS Code, Sublime Text and Zed: see [Heritage Themes on GitHub](https://github.com/heritage-themes/heritage-themes).
+Each family's page describes its colour tradition. The same themes are available for JetBrains IDEs, VS Code, Visual Studio, Sublime Text, Zed, Notepad++, Xcode, Helix, Kakoune, Micro, Vim, Emacs, Nano, Textadept, Lapce, Qt Creator, Amp, Eclipse, Nova and terminals: see [Heritage Themes on GitHub](https://github.com/heritage-themes/heritage-themes).
 
 Report a problem or suggest a tradition on the [issue tracker](https://github.com/heritage-themes/heritage-themes/issues). Include the colour scheme, Neovim version, language and a screenshot.

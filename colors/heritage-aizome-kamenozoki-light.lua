@@ -153,8 +153,8 @@ hl("StorageClass", { fg = "#576B7F" })
 hl("Structure", { fg = "#576B7F" })
 hl("Typedef", { fg = "#576B7F" })
 hl("Label", { fg = "#111F37", bold = true })
-hl("Operator", { fg = "#596B7D" })
-hl("Delimiter", { fg = "#596B7D" })
+hl("Operator", { fg = "#596B7C" })
+hl("Delimiter", { fg = "#596B7C" })
 hl("Macro", { fg = "#576B7F" })
 hl("Debug", { fg = "#576B7F" })
 hl("Type", { fg = "#111F37" })
@@ -190,9 +190,9 @@ hl("@character", { fg = "#186575" })
 hl("@markup.raw", { fg = "#186575" })
 hl("@markup.raw.block", { fg = "#186575" })
 hl("@markup.math", { fg = "#186575" })
-hl("@string.documentation", { fg = "#547084", italic = true })
-hl("@comment.documentation", { fg = "#547084", italic = true })
-hl("@markup.quote", { fg = "#547084", italic = true })
+hl("@string.documentation", { fg = "#516C80", italic = true })
+hl("@comment.documentation", { fg = "#516C80", italic = true })
+hl("@markup.quote", { fg = "#516C80", italic = true })
 hl("@string.escape", { fg = "#186575", bold = true })
 hl("@character.special", { fg = "#186575", bold = true })
 hl("@string.special.url", { fg = "#213651", italic = true })
@@ -210,12 +210,12 @@ hl("@function.method", { fg = "#0A152A", bold = true })
 hl("@function.call", { fg = "#213651" })
 hl("@function.method.call", { fg = "#213651" })
 hl("@function.builtin", { fg = "#213651", italic = true })
-hl("@operator", { fg = "#596B7D" })
-hl("@keyword.conditional.ternary", { fg = "#596B7D" })
-hl("@punctuation", { fg = "#596B7D" })
-hl("@punctuation.delimiter", { fg = "#596B7D" })
-hl("@punctuation.bracket", { fg = "#596B7D" })
-hl("@punctuation.special", { fg = "#596B7D" })
+hl("@operator", { fg = "#596B7C" })
+hl("@keyword.conditional.ternary", { fg = "#596B7C" })
+hl("@punctuation", { fg = "#596B7C" })
+hl("@punctuation.delimiter", { fg = "#596B7C" })
+hl("@punctuation.bracket", { fg = "#596B7C" })
+hl("@punctuation.special", { fg = "#596B7C" })
 hl("@keyword", { fg = "#576B7F" })
 hl("@keyword.coroutine", { fg = "#576B7F" })
 hl("@keyword.function", { fg = "#576B7F" })
@@ -309,7 +309,7 @@ hl("@lsp.type.comment", { fg = "#6E8393", italic = true })
 hl("@lsp.type.string", { fg = "#186575" })
 hl("@lsp.type.regexp", { fg = "#186575" })
 hl("@lsp.type.number", { fg = "#4B4D8B" })
-hl("@lsp.type.operator", { fg = "#596B7D" })
+hl("@lsp.type.operator", { fg = "#596B7C" })
 
 vim.g.terminal_color_0 = "#97A7B3"
 vim.g.terminal_color_1 = "#AC3031"
@@ -318,7 +318,7 @@ vim.g.terminal_color_3 = "#7D5E07"
 vim.g.terminal_color_4 = "#255691"
 vim.g.terminal_color_5 = "#793974"
 vim.g.terminal_color_6 = "#086A73"
-vim.g.terminal_color_7 = "#596B7D"
+vim.g.terminal_color_7 = "#596B7C"
 vim.g.terminal_color_8 = "#4B5E73"
 vim.g.terminal_color_9 = "#AC3031"
 vim.g.terminal_color_10 = "#246E3A"
