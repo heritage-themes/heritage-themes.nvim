@@ -64,8 +64,8 @@ hl("MoreMsg", { fg = "#8CD47E" })
 hl("Question", { fg = "#8CD47E" })
 hl("OkMsg", { fg = "#8CD47E" })
 hl("WarningMsg", { fg = "#F2CF5A" })
-hl("ErrorMsg", { fg = "#F07E70" })
-hl("StderrMsg", { fg = "#F07E70" })
+hl("ErrorMsg", { fg = "#F38173" })
+hl("StderrMsg", { fg = "#F38173" })
 hl("StdoutMsg", {})
 hl("NormalFloat", { fg = "#BDBBB3", bg = "#1E1E1C" })
 hl("FloatBorder", { fg = "#30302D", bg = "#1E1E1C" })
@@ -96,7 +96,7 @@ hl("DiffChange", { bg = "#1A2636" })
 hl("DiffDelete", { fg = "#C8605A", bg = "#361C1E" })
 hl("DiffText", { bg = "#324A72" })
 hl("DiffTextAdd", { bg = "#375837" })
-hl("DiagnosticError", { fg = "#F07E70" })
+hl("DiagnosticError", { fg = "#F38173" })
 hl("DiagnosticWarn", { fg = "#F2CF5A" })
 hl("DiagnosticInfo", { fg = "#7CB4F2" })
 hl("DiagnosticHint", { fg = "#908E86" })
@@ -167,10 +167,10 @@ hl("SpecialChar", { fg = "#F2CF5A", bold = true })
 hl("Tag", { fg = "#7CC0F2" })
 hl("SpecialComment", { fg = "#AFADA5", bold = true, italic = true })
 hl("Todo", { fg = "#F2CF5A", bold = true, italic = true })
-hl("Error", { fg = "#F07E70" })
+hl("Error", { fg = "#F38173" })
 hl("Added", { fg = "#8CD47E" })
 hl("Changed", { fg = "#7CB4F2" })
-hl("Removed", { fg = "#F07E70" })
+hl("Removed", { fg = "#F38173" })
 hl("@variable", { fg = "#BDBBB3" })
 hl("@module", { fg = "#BDBBB3" })
 hl("@module.builtin", { fg = "#BDBBB3" })
@@ -258,7 +258,7 @@ hl("@markup.italic", { fg = "#BDBBB3", italic = true })
 hl("@markup.link", { fg = "#7CC0F2" })
 hl("@markup.link.label", { fg = "#7CC0F2" })
 hl("@diff.plus", { fg = "#8CD47E" })
-hl("@diff.minus", { fg = "#F07E70" })
+hl("@diff.minus", { fg = "#F38173" })
 hl("@diff.delta", { fg = "#7CB4F2" })
 hl("@constant.regex", { fg = "#F2CF5A" })
 hl("@punctuation.bracket.regex", { fg = "#F2CF5A", bold = true })
@@ -325,8 +325,8 @@ hl("@lsp.type.regexp", { fg = "#F2CF5A" })
 hl("@lsp.type.number", { fg = "#F49AC6" })
 hl("@lsp.type.operator", { fg = "#A19F97" })
 
-vim.g.terminal_color_0 = "#565550"
-vim.g.terminal_color_1 = "#F07E70"
+vim.g.terminal_color_0 = "#141413"
+vim.g.terminal_color_1 = "#F38173"
 vim.g.terminal_color_2 = "#8CD47E"
 vim.g.terminal_color_3 = "#F2CF5A"
 vim.g.terminal_color_4 = "#7CB4F2"
@@ -334,7 +334,7 @@ vim.g.terminal_color_5 = "#E08ADA"
 vim.g.terminal_color_6 = "#6DCFD8"
 vim.g.terminal_color_7 = "#A19F97"
 vim.g.terminal_color_8 = "#908E86"
-vim.g.terminal_color_9 = "#F07E70"
+vim.g.terminal_color_9 = "#F38173"
 vim.g.terminal_color_10 = "#8CD47E"
 vim.g.terminal_color_11 = "#F2CF5A"
 vim.g.terminal_color_12 = "#7CB4F2"

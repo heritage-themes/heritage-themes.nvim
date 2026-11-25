@@ -60,10 +60,10 @@ hl("TabLineSel", { fg = "#34384A", bg = "#EEE6D4", bold = true })
 hl("MsgArea", { fg = "#34384A" })
 hl("MsgSeparator", { fg = "#CFC4AC", bg = "#D7CCB6" })
 hl("ModeMsg", { fg = "#34384A", bold = true })
-hl("MoreMsg", { fg = "#2D6B26" })
-hl("Question", { fg = "#2D6B26" })
-hl("OkMsg", { fg = "#2D6B26" })
-hl("WarningMsg", { fg = "#7A5800" })
+hl("MoreMsg", { fg = "#2B6925" })
+hl("Question", { fg = "#2B6925" })
+hl("OkMsg", { fg = "#2B6925" })
+hl("WarningMsg", { fg = "#795700" })
 hl("ErrorMsg", { fg = "#A3201E" })
 hl("StderrMsg", { fg = "#A3201E" })
 hl("StdoutMsg", {})
@@ -97,10 +97,10 @@ hl("DiffDelete", { fg = "#C05050", bg = "#F5D7D1" })
 hl("DiffText", { bg = "#A7BDDD" })
 hl("DiffTextAdd", { bg = "#B0CD9E" })
 hl("DiagnosticError", { fg = "#A3201E" })
-hl("DiagnosticWarn", { fg = "#7A5800" })
+hl("DiagnosticWarn", { fg = "#795700" })
 hl("DiagnosticInfo", { fg = "#1F55A8" })
 hl("DiagnosticHint", { fg = "#57575D" })
-hl("DiagnosticOk", { fg = "#2D6B26" })
+hl("DiagnosticOk", { fg = "#2B6925" })
 hl("DiagnosticUnderlineError", { sp = "#C42020", undercurl = true })
 hl("DiagnosticUnderlineWarn", { sp = "#905800", undercurl = true })
 hl("DiagnosticUnderlineInfo", { sp = "#3A5296", undercurl = true })
@@ -168,7 +168,7 @@ hl("Tag", { fg = "#3A5296" })
 hl("SpecialComment", { fg = "#44443E", bold = true, italic = true })
 hl("Todo", { fg = "#B0281C", bold = true, italic = true })
 hl("Error", { fg = "#A3201E" })
-hl("Added", { fg = "#2D6B26" })
+hl("Added", { fg = "#2B6925" })
 hl("Changed", { fg = "#1F55A8" })
 hl("Removed", { fg = "#A3201E" })
 hl("@variable", { fg = "#34384A" })
@@ -257,7 +257,7 @@ hl("@markup.strong", { fg = "#34384A", bold = true })
 hl("@markup.italic", { fg = "#34384A", italic = true })
 hl("@markup.link", { fg = "#3A5296" })
 hl("@markup.link.label", { fg = "#3A5296" })
-hl("@diff.plus", { fg = "#2D6B26" })
+hl("@diff.plus", { fg = "#2B6925" })
 hl("@diff.minus", { fg = "#A3201E" })
 hl("@diff.delta", { fg = "#1F55A8" })
 hl("@constant.regex", { fg = "#1F6E3A" })
@@ -325,19 +325,19 @@ hl("@lsp.type.regexp", { fg = "#1F6E3A" })
 hl("@lsp.type.number", { fg = "#6A3AA8" })
 hl("@lsp.type.operator", { fg = "#55576A" })
 
-vim.g.terminal_color_0 = "#A8A08E"
+vim.g.terminal_color_0 = "#E9E1CE"
 vim.g.terminal_color_1 = "#A3201E"
-vim.g.terminal_color_2 = "#2D6B26"
-vim.g.terminal_color_3 = "#7A5800"
+vim.g.terminal_color_2 = "#2B6925"
+vim.g.terminal_color_3 = "#795700"
 vim.g.terminal_color_4 = "#1F55A8"
 vim.g.terminal_color_5 = "#8E2A90"
-vim.g.terminal_color_6 = "#0A6A78"
+vim.g.terminal_color_6 = "#006674"
 vim.g.terminal_color_7 = "#55576A"
 vim.g.terminal_color_8 = "#57575D"
 vim.g.terminal_color_9 = "#A3201E"
-vim.g.terminal_color_10 = "#2D6B26"
-vim.g.terminal_color_11 = "#7A5800"
+vim.g.terminal_color_10 = "#2B6925"
+vim.g.terminal_color_11 = "#795700"
 vim.g.terminal_color_12 = "#1F55A8"
 vim.g.terminal_color_13 = "#8E2A90"
-vim.g.terminal_color_14 = "#0A6A78"
+vim.g.terminal_color_14 = "#006674"
 vim.g.terminal_color_15 = "#34384A"

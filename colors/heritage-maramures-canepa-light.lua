@@ -325,7 +325,7 @@ hl("@lsp.type.regexp", { fg = "#9A5400" })
 hl("@lsp.type.number", { fg = "#1F55A8" })
 hl("@lsp.type.operator", { fg = "#605A52" })
 
-vim.g.terminal_color_0 = "#ACA598"
+vim.g.terminal_color_0 = "#EEE9DE"
 vim.g.terminal_color_1 = "#A3201E"
 vim.g.terminal_color_2 = "#2D6B26"
 vim.g.terminal_color_3 = "#7A5800"

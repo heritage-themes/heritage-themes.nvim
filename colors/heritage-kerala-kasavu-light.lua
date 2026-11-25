@@ -60,9 +60,9 @@ hl("TabLineSel", { fg = "#1F2420", bg = "#F9F5E8", bold = true })
 hl("MsgArea", { fg = "#1F2420" })
 hl("MsgSeparator", { fg = "#DACEAC", bg = "#E2D9BF" })
 hl("ModeMsg", { fg = "#1F2420", bold = true })
-hl("MoreMsg", { fg = "#3A791E" })
-hl("Question", { fg = "#3A791E" })
-hl("OkMsg", { fg = "#3A791E" })
+hl("MoreMsg", { fg = "#347318" })
+hl("Question", { fg = "#347318" })
+hl("OkMsg", { fg = "#347318" })
 hl("WarningMsg", { fg = "#7A5A00" })
 hl("ErrorMsg", { fg = "#B0203A" })
 hl("StderrMsg", { fg = "#B0203A" })
@@ -100,7 +100,7 @@ hl("DiagnosticError", { fg = "#B0203A" })
 hl("DiagnosticWarn", { fg = "#7A5A00" })
 hl("DiagnosticInfo", { fg = "#1060A8" })
 hl("DiagnosticHint", { fg = "#5A615A" })
-hl("DiagnosticOk", { fg = "#3A791E" })
+hl("DiagnosticOk", { fg = "#347318" })
 hl("DiagnosticUnderlineError", { sp = "#D01E2E", undercurl = true })
 hl("DiagnosticUnderlineWarn", { sp = "#A86A00", undercurl = true })
 hl("DiagnosticUnderlineInfo", { sp = "#1060A8", undercurl = true })
@@ -168,7 +168,7 @@ hl("Tag", { fg = "#1060A8" })
 hl("SpecialComment", { fg = "#5A4E32", bold = true, italic = true })
 hl("Todo", { fg = "#7A5A00", bold = true, italic = true })
 hl("Error", { fg = "#B0203A" })
-hl("Added", { fg = "#3A791E" })
+hl("Added", { fg = "#347318" })
 hl("Changed", { fg = "#1060A8" })
 hl("Removed", { fg = "#B0203A" })
 hl("@variable", { fg = "#1F2420" })
@@ -257,7 +257,7 @@ hl("@markup.strong", { fg = "#1F2420", bold = true })
 hl("@markup.italic", { fg = "#1F2420", italic = true })
 hl("@markup.link", { fg = "#1060A8" })
 hl("@markup.link.label", { fg = "#1060A8" })
-hl("@diff.plus", { fg = "#3A791E" })
+hl("@diff.plus", { fg = "#347318" })
 hl("@diff.minus", { fg = "#B0203A" })
 hl("@diff.delta", { fg = "#1060A8" })
 hl("@constant.regex", { fg = "#745903" })
@@ -325,19 +325,19 @@ hl("@lsp.type.regexp", { fg = "#745903" })
 hl("@lsp.type.number", { fg = "#974C02" })
 hl("@lsp.type.operator", { fg = "#565C56" })
 
-vim.g.terminal_color_0 = "#A5A797"
+vim.g.terminal_color_0 = "#F4EFDE"
 vim.g.terminal_color_1 = "#B0203A"
-vim.g.terminal_color_2 = "#3A791E"
+vim.g.terminal_color_2 = "#347318"
 vim.g.terminal_color_3 = "#7A5A00"
 vim.g.terminal_color_4 = "#1060A8"
 vim.g.terminal_color_5 = "#9C3A8A"
-vim.g.terminal_color_6 = "#007876"
+vim.g.terminal_color_6 = "#007170"
 vim.g.terminal_color_7 = "#565C56"
 vim.g.terminal_color_8 = "#5A615A"
 vim.g.terminal_color_9 = "#B0203A"
-vim.g.terminal_color_10 = "#3A791E"
+vim.g.terminal_color_10 = "#347318"
 vim.g.terminal_color_11 = "#7A5A00"
 vim.g.terminal_color_12 = "#1060A8"
 vim.g.terminal_color_13 = "#9C3A8A"
-vim.g.terminal_color_14 = "#007876"
+vim.g.terminal_color_14 = "#007170"
 vim.g.terminal_color_15 = "#1F2420"
